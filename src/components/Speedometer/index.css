@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #07080c;
+  justify-content: center;
+  font-family: 'Roboto';
+  height: 100vh;
+  align-items: center;
+}
+
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.image {
+  width: 60%;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accBtn {
+  height: 36px;
+  width: 128px;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.brakeBtn {
+  color: #ffffff;
+  background-color: transparent;
+  height: 36px;
+  border: 2px;
+  border-radius: 10px;
+  width: 128px;
+  border: 2px solid #ffffff;
+}
